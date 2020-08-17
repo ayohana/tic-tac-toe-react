@@ -4,14 +4,25 @@ import './index.css';
 
 // The Square component renders a single <button>
 class Square extends React.Component {
-    render() {
-      return (
-        <button className="square" onClick={() => alert('click')}>
-          {this.props.value}
-        </button>
-      );
+    constructor(props) {
+        super(props);
+        // In JavaScript, the super keyword is used to access and call functions on an object's parent. All React component classes that have a constructor should start with a super(props) call as we are defining the constructor of a SUBCLASS.
+        this.state = {
+            value: null,
+        };
     }
-  }
+
+    render() {
+        return (
+            <button 
+                className="square" 
+                onClick={() => this.setState({value: 'X'})}
+            >
+            {this.state.value}
+            </button>
+        );
+    }
+}
 
 // The Board component renders 9 Squares
 class Board extends React.Component {
