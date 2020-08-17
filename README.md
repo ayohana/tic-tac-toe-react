@@ -1,68 +1,66 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<div align=center>
 
-## Available Scripts
+# [Tic Tac Toe](https://github.com/ayohana/tic-tac-toe-react.git)
 
-In the project directory, you can run:
+#### React Tutorial, 08.17.20
 
-### `npm start`
+#### By [**Adela Darmansyah**](https://github.com/ayohana/)
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+[About](#About) | [Screenshots](#Screenshots) | [How To Install](#How-To-Install) | [Bugs](#Known-Bugs) | [Technologies Used](#Technologies-Used) | [Learning Resources](#Learning-Resources)  | [Contact and Support](#Contact-and-Support)
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+![GitHub last commit (branch)](https://img.shields.io/github/last-commit/ayohana/tic-tac-toe-react/master?color=%23DE98B2&style=for-the-badge) ![GitHub language count](https://img.shields.io/github/languages/count/ayohana/tic-tac-toe-react?color=%23DE98B2&style=for-the-badge) ![GitHub top language](https://img.shields.io/github/languages/top/ayohana/tic-tac-toe-react?color=%23DE98B2&style=for-the-badge)
 
-### `npm test`
+</div>
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## About
 
-### `npm run build`
+**An interactive tic-tac-toe game with React.** This web app featuers a numbered list to the right of the game's board. This list gives you a history of all of the moves that have occurred in the game, and it is updated as the game progresses.
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Screenshots
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+_Under construction - coming soon!_
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<!-- <div align="center">
 
-### `npm run eject`
+#### Create new game
+<img src="./src/img/create-new-save.gif" width=600px alt="Create new game">
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+</div> -->
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## How To Install
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### For local development
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+* Clone this [repo](https://github.com/ayohana/tic-tac-toe-react.git)
+* Open the command line and navigate into the repository
+    * `npm install` to install all necessary plugins
+    * `npm test` to run all tests
+    * `npm start` to run the application locally
 
-## Learn More
+## Known Bugs
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+No known bugs at this time.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Technologies Used
 
-### Code Splitting
+* JavaScript
+* HTML
+* CSS
+* Markdown
+* [Visual Studio Code](https://code.visualstudio.com/)
+* Linux VM
+* npm
+    * Webpack
+    * [Jest](https://jestjs.io/docs/en/api)
+    * Code Linter
+    * _etc.*_
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+_*Open `package.json` file to see the complete list of all plugins._
 
-### Analyzing the Bundle Size
+## Learning Resources
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+* [Official Tutorial: Intro to React](https://reactjs.org/tutorial/tutorial.html)
 
-### Making a Progressive Web App
+## Contact and Support
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+Any feedback is welcomed! Email me: [adela.yohana@gmail.com](mailto:adela.yohana@gmail.com).
