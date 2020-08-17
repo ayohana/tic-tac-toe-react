@@ -2,7 +2,7 @@
 
 # [Tic Tac Toe](https://github.com/ayohana/tic-tac-toe-react.git)
 
-#### React Tutorial, 08.17.20
+#### [React Tutorial](https://reactjs.org/tutorial/tutorial.html), 08.17.20
 
 #### By [**Adela Darmansyah**](https://github.com/ayohana/)
 
@@ -14,18 +14,11 @@
 
 ## About
 
-**An interactive tic-tac-toe game with React.** This web app featuers a numbered list to the right of the game's board. This list gives you a history of all of the moves that have occurred in the game, and it is updated as the game progresses.
+**An interactive tic-tac-toe game with React.** This web app also features a numbered list to the right of the game's board. This list gives you a history of all of the moves that have occurred in the game, and it is updated as the game progresses.
 
-## Screenshots
+## Final Result
 
-_Under construction - coming soon!_
-
-<!-- <div align="center">
-
-#### Create new game
-<img src="./src/img/create-new-save.gif" width=600px alt="Create new game">
-
-</div> -->
+Similar to the example from the tutorial page: [CodePen](https://codepen.io/gaearon/pen/gWWZgR?editors=0010)
 
 ## How To Install
 
@@ -60,6 +53,11 @@ _*Open `package.json` file to see the complete list of all plugins._
 ## Learning Resources
 
 * [Official Tutorial: Intro to React](https://reactjs.org/tutorial/tutorial.html)
+* [React component class, the `render` method, JSX syntax](https://reactjs.org/tutorial/tutorial.html#what-is-react)
+* [Always call `super` when defining the constructor of a JS subclass](https://reactjs.org/tutorial/tutorial.html#what-is-react)
+* [MDN: `super`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/super)
+* [React Developer Tools for Chrome](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en)
+* [In React, it’s conventional to use `on[Event]` names for props which represent events and `handle[Event]` for the methods which handle the events.](https://reactjs.org/tutorial/tutorial.html#lifting-state-up)
 
 ## Contact and Support
 
